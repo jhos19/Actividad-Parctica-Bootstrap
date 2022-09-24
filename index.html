@@ -4,9 +4,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>TActividad Practica Bootstrap</title>
+
+
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Codo a Codo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disactivado</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+ 
+      <section class="container-fluid p-0">
+        <div class="row">
+            <div  class="col-sm-12 ">
+                <div class="card-group">
+                    <div class="card">
+                    <img src="./images/HTML5.png" class="card-img-top"  style="height: 250px;" alt="HTML5">
+                    <div class="card-body">
+                        <h5 class="card-title">HTML 5</h5>
+                        <p class="card-text">Contenido de carta 1</p>
+                        <p class="card-text"><small class="text-muted">Última actualización 1</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                  <img src="./images/css3.png" class="card-img-top" style="height: 250px;" alt="CSS3">
+                  <div class="card-body">
+                    <h5 class="card-title">CSS3</h5>
+                    <p class="card-text">Contenido de carta 2</p>
+                    <p class="card-text"><small class="text-muted">Última actualización 1</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="./images/bootstrap.png" class="card-img-top"  style="height: 250px;" alt="bootstrap">
+                  <div class="card-body">
+                    <h5 class="card-title">Bootstrap</h5>
+                    <p class="card-text">Contenido de carta 3</p>
+                    <p class="card-text"><small class="text-muted">Última actualización 1</small></p>
+                  </div>
+                </div>
+                </div>
+              </div>
+        </div>
+
+        <div class=" row pt-4 px-2">
+
+            <form>
+                <div class="row mb-3">
+                  <label for="inputEmail3" class="col-sm-12 col-form-label">Email</label>
+                  <div class="col-sm-12">
+                    <input type="email" class="form-control" id="inputEmail3">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputPassword3" class="col-sm-12 col-form-label">Contraseña</label>
+                  <div class="col-sm-12">
+                    <input type="password" class="form-control" id="inputPassword3">
+                  </div>
+                </div>
+
+
+                <div class="row mb-3">
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1">
+                      <label class="form-check-label" for="gridCheck1">
+                        Verificar
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+
+
+        </div>
+      </section>
     
 </body>
 </html>
